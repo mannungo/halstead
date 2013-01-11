@@ -4,6 +4,7 @@ halstead
 http://www.programando.org/blog/2013/01/desafio-enero-las-metricas-de-halstead/
 
 
+<pre>
 ?> php halstead.php operadores.txt programa.txt
 n1 = 6 (input, if, <=, then, print, else)
 N1 = 7 (input, if, <=, then, print, else, print)
@@ -17,10 +18,11 @@ L = 0.27777777777778
 D = 3.6
 E = 161.90139975223
 T = 8.994522208457
-
+</pre>
 
 -----------------------------------
 
+<pre>
 ?> php halstead.php operadores2.txt halstead.php
 n1 = 19 (<?php, =, ., implode, array, file, FILE_IGNORE_NEW_LINES, if, preg_match_all, foreach, as, str_replace, preg_replace, sizeof, +, *, log, /, print)
 N1 = 73 (<?php, =, ., implode, array, file, FILE_IGNORE_NEW_LINES, ., =, file, =, array, if, preg_match_all, =, foreach, as, =, str_replace, =, array, if, preg_match_all, =, =, preg_replace, if, preg_match_all, =, array, =, array, =, array, =, sizeof, =, sizeof, =, sizeof, =, sizeof, =, +, =, +, =, *, log, =, /, *, /, =, *, print, ., implode, ., ., implode, ., ., implode, ., ., implode, ., ., /, ., ., /)
@@ -34,5 +36,5 @@ L = 0.043213296398892
 D = 23.141025641026
 E = 22774.027653365
 T = 1265.2237585203
-
+</pre>
 
