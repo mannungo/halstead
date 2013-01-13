@@ -24,17 +24,17 @@ T = 8.994522208457
 
 <pre>
 ?> php halstead.php operadores2.txt halstead.php
-n1 = 19 (&lt;?php, =, ., implode, array, file, FILE_IGNORE_NEW_LINES, if, preg_match_all, foreach, as, str_replace, preg_replace, sizeof, +, *, log, /, print)
-N1 = 73 (&lt;?php, =, ., implode, array, file, FILE_IGNORE_NEW_LINES, ., =, file, =, array, if, preg_match_all, =, foreach, as, =, str_replace, =, array, if, preg_match_all, =, =, preg_replace, if, preg_match_all, =, array, =, array, =, array, =, sizeof, =, sizeof, =, sizeof, =, sizeof, =, +, =, +, =, *, log, =, /, *, /, =, *, print, ., implode, ., ., implode, ., ., implode, ., ., implode, ., ., /, ., ., /)
-n2 = 39 ('#(', '|', 'preg_quote', ')#', '/("(?:[^"\\\\]|\\\\.)*"|\'(?:[^\'\\\\]|\\\\.)*\')/', ' ', '/\b(\w+)\b/', "n1 = $nn1 (", ', ', ")\nN1 = $NN1 (", ")\nn2 = $nn2 (", ")\nN2 = $NN2 (", ")\n\nN = $N\nn = $n\nV = $V\nL = ", "\nD = $D\nE = $E\nT = ", op, _map, argv, 1, code, _get_contents, 2, N2, m, s, N1, _merge, n1, _unique, n2, nn1, nn2, NN1, NN2, N, n, V, D, E, 18)
-N2 = 95 ('#(', '|', 'preg_quote', ')#', '/("(?:[^"\\\\]|\\\\.)*"|\'(?:[^\'\\\\]|\\\\.)*\')/', ' ', ' ', '/\b(\w+)\b/', "n1 = $nn1 (", ', ', ")\nN1 = $NN1 (", ', ', ")\nn2 = $nn2 (", ', ', ")\nN2 = $NN2 (", ', ', ")\n\nN = $N\nn = $n\nV = $V\nL = ", "\nD = $D\nE = $E\nT = ", op, _map, argv, 1, code, _get_contents, argv, 2, N2, code, m, N2, m, 1, m, 1, s, code, s, code, N1, op, code, m, N1, m, 1, code, op, code, code, m, N2, _merge, N2, m, 1, n1, _unique, N1, n2, _unique, N2, nn1, n1, nn2, n2, NN1, N1, NN2, N2, N, NN1, NN2, n, nn1, nn2, V, N, n, 2, D, nn1, 2, NN2, nn2, E, V, D, n1, N1, n2, N2, 1, D, E, 18)
+n1 = 20 (&lt;?php, =, array, if, preg_match_all, file_get_contents, str_replace, implode, array_map, file, FILE_IGNORE_NEW_LINES, sizeof, preg_replace, array_merge, +, array_unique, *, log, /, print)
+N1 = 56 (&lt;?php, =, =, array, if, preg_match_all, =, file_get_contents, =, str_replace, =, if, preg_match_all, =, implode, array_map, file, FILE_IGNORE_NEW_LINES, =, sizeof, =, if, preg_match_all, preg_replace, =, array_merge, =, +, =, sizeof, =, =, sizeof, =, array_unique, +, =, sizeof, =, array_unique, =, =, *, log, *, =, /, *, /, print, implode, implode, implode, implode, /, /)
+n2 = 34 ('/("(?:[^"\\\\]|\\\\.)*"|\'(?:[^\'\\\\]|\\\\.)*\')/', ' ', '#(', '|', 'preg_quote', ')#', '/\b(\w+)\b/', "n1 = $nn1 (", ', ', ")\nN1 = $NN1 (", ")\nn2 = $nn2 (", ")\nN2 = $NN2 (", ")\n\nN = $N\nn = $n\nV = $V\nL = ", "\nD = $D\nE = $E\nT = ", N1, N2, code, argv, 2, m, 1, op, NN1, N, NN2, n, nn1, n1, nn2, n2, E, V, D, 18)
+N2 = 74 ('/("(?:[^"\\\\]|\\\\.)*"|\'(?:[^\'\\\\]|\\\\.)*\')/', ' ', '#(', '|', 'preg_quote', ')#', '/\b(\w+)\b/', ' ', "n1 = $nn1 (", ', ', ")\nN1 = $NN1 (", ', ', ")\nn2 = $nn2 (", ', ', ")\nN2 = $NN2 (", ', ', ")\n\nN = $N\nn = $n\nV = $V\nL = ", "\nD = $D\nE = $E\nT = ", N1, N2, code, argv, 2, m, code, N2, m, 1, code, op, argv, 1, code, m, NN1, N1, m, 1, op, code, m, N2, N2, m, 1, N, NN1, NN2, N2, n, nn1, n1, N1, nn2, n2, N2, E, V, N, n, 2, D, nn1, 2, NN2, nn2, n1, N1, n2, N2, 1, D, E, 18)
 
-N = 168
-n = 58
-V = 984.14080718143
-L = 0.043213296398892
-D = 23.141025641026
-E = 22774.027653365
-T = 1265.2237585203
+N = 130
+n = 54
+V = 748.13537528125
+L = 0.045945945945946
+D = 21.764705882353
+E = 16282.94640318
+T = 904.60813351001
 </pre>
 

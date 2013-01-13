@@ -1,15 +1,14 @@
 =
 /
-.
 *
 +
-array
 array_map
 array_merge
 array_unique
+array
 as
-file
 file_get_contents
+file
 FILE_IGNORE_NEW_LINES
 foreach
 header
@@ -24,3 +23,4 @@ print
 require
 sizeof
 str_replace
+exit;
